@@ -1,5 +1,8 @@
 package com.msb.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SuperContraGame implements GamingConsole {
     @Override
     public void up() {
