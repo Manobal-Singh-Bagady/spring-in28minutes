@@ -1,15 +1,14 @@
 package com.msb.learnspringframework.game;
 
 public class GameRunner {
-    //    private final MarioGame game;
-    private final SuperContraGame game;
+    private final GamingConsole game;
 
-    public GameRunner(SuperContraGame marioGame) {
-        this.game = marioGame;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
     public void run() {
-        System.out.println("Running game: " + game);
+        System.out.println("Running game: " + game.getGameName());
         game.up();
         game.down();
         game.left();
