@@ -1,11 +1,9 @@
 package com.msb.learnspringframework;
 
 import com.msb.learnspringframework.game.GameRunner;
-import com.msb.learnspringframework.game.MarioGame;
 import com.msb.learnspringframework.game.PacManGame;
-import com.msb.learnspringframework.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
 //        var game = new MarioGame();
 //        var game = new SuperContraGame();
