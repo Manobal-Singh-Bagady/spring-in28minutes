@@ -1,0 +1,9 @@
+logging:
+  level:
+    org:
+      springframework: trace
+
+currency-service:
+  url: http://dev.msb.com
+  username: devusername
+  key: devkey

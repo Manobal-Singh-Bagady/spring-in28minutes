@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: learn-spring-boot
+  profiles:
+    active: prod
+
+logging:
+  level:
+    org:
+      springframework: debug
+
+currency-service:
+  url: http://default.msb.com
+  username: defaultusername
+  key: defaultkey
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
